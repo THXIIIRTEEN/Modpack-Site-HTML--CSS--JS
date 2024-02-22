@@ -1,0 +1,2051 @@
+::-webkit-scrollbar {
+    width: 0px;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    margin: 0%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Lalezar';
+    margin: 0%;
+    font-weight: 400;
+}
+
+p {
+    font-family: 'League Spartan';
+    margin: 0%;
+}
+
+body {
+    background-color: #040610;
+    position: relative;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    padding: 0% 2%;
+    box-sizing: border-box;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.49) 0%, rgba(0, 0, 0, 0.00) 100%);
+    z-index: 1000;
+}
+
+header a {
+    font-family: 'Jomhuria';
+    font-size: 40px;
+    font-weight: 400;
+    margin: 0% 4%;
+}
+
+button {
+    display: flex;
+    flex-direction: row;
+    background: none;
+    border: none;
+    cursor: pointer;
+    align-items: center;
+}
+
+.download-button {
+    padding: 0.5% 1%;
+    border: 2px solid white;
+    border-radius: 17px;
+    width: 155px;
+    transition: 0.2s;
+}
+
+.download-button svg {
+    flex-shrink: 0;
+    margin-left: -4%;
+}
+
+.download-button a {
+    margin: 0%;
+    line-height: 0.65;
+    margin-left: 8%;
+    padding-top: 4px;
+}
+
+.selected {
+    font-size: 48px;
+}
+
+.links-selector {
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    font-size: 96px;
+    font-family: 'Jomhuria';
+    font-weight: 400;
+    margin: 0%;
+    cursor: default;
+}
+
+a {
+    position: relative;
+}
+
+a::after  {
+    content: ' ';
+    position: relative;
+    background: white;
+    width: 0%;
+    height: 1px;
+    top: -6px;
+    transition: 0.5s;
+    display: block;
+}
+
+.check-list-link {
+    width: max-content;
+    white-space: nowrap;
+}
+
+.check-list-link::before {
+    content: ' ';
+    position: absolute;
+    background: white;
+    width: 0%;
+    height: 1px;
+    bottom: -6px;
+    transition: 0.5s;
+    display: block;
+}
+
+.check-list__animation::before {
+    width: 100%;
+}
+
+.animation-underline::after {
+    width: 100%;
+    height: 1px;
+}
+
+.first-section_hearts {
+    width: 185px;
+    height: 70px;
+    margin: 2% 0%;
+    position: relative;
+    z-index: 1;
+}
+
+.first-section {
+    background: url(../img/first-background.png);
+    background-color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding: 20% 8% 8% 8% !important;
+    box-sizing: border-box;
+    position: relative;
+    z-index: 1;
+}
+
+.first-section::after {
+    content: ' ';
+    background: url(../img/shading.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    width: 100%;
+    height: 90%;
+    position: absolute;
+    left: 0%;
+    bottom: 0%;
+    z-index: 0;
+}
+
+.sign {
+    font-size: 110px;
+    font-family: 'Lalezar';
+    line-height: 70%;
+    font-weight: 400;
+    margin: 0%;
+    z-index: 1;
+    position: relative;
+}
+
+.white {
+    color: white;
+}
+
+.best-community-link_a {
+    display: flex;
+    width: fit-content;
+    margin: 4% 0%;
+    position: relative;
+    z-index: 1;
+}
+
+.best-community-link {
+    display: flex;
+    flex-direction: row;
+    background: rgba(0, 0, 0, 0.43);
+    box-shadow: 0px 0px 17px 2px rgba(0, 0, 0, 0.29) inset;
+    backdrop-filter: blur(7px);
+    border-radius: 77px;
+    outline: 1px solid #8F8F8F;
+    width: 590px;
+    height: 70px;
+    padding: 0% 6%;
+    align-items: center;
+    box-sizing: border-box;
+    transition: 0.2s;
+}
+
+.bcl_text-block h4 {
+    font-size: 20px;
+    background: linear-gradient(91deg, #4FDF4C 0%, #B8BB34 30%, #CC6C4E 55%, #FF004D 75%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 400;
+    background-size: cover;
+    margin: 0%;
+}
+
+.bcl_text-block p {
+    margin: 0%;
+}
+
+.bcl_text-block {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-grow: 1;
+    align-items: center;
+    margin-left: 5%;
+    height: 100%;
+}
+
+.bcl_text-block_left {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+}
+
+.second-section {
+    padding: 2% 8%;
+}
+
+.second-section p {
+    font-size: 24px;
+}
+
+.blogger-names {
+    margin-top: 2%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.third-section {
+    background: url(../img/cube-background.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+}
+
+.category-section {
+    margin: 8% 0% 12% 0%;
+    padding: 0% 8%;
+    transition: 10s;
+}
+
+.category-type {
+    font-size: 30px;
+    color: white;
+}
+
+.category-sign {
+    font-size: 128px;
+    font-weight: 400;
+    line-height: 100%;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Jomhuria';
+    position: relative;
+}
+
+.orange {
+    background: linear-gradient(90deg, #DB7020 0%, #E19E1D 50%, #E6B81A 100%);
+}
+
+.yellow {
+    background: linear-gradient(90deg, #E6B91A 0%, #B3EA14 50%, #7BE214 100%);
+}
+
+.green {
+    background: linear-gradient(90deg, #68E61A 1%, #3EE462 25%, #14E28B 45%);
+}
+
+.cyan {
+    background: linear-gradient(90deg, #14DEDC 1%, #16CCE5 25%, #148BE2 45%);
+}
+
+.blue {
+    background: linear-gradient(90deg, #146CD2 5%, #6A25DA 30%, #9414E2 60%);
+}
+
+.violet {
+    background: linear-gradient(90deg, #7B19D5 5%, #AB25DA 30%, #DE14E2 60%);
+}
+
+.category-text {
+    color: white;
+    font-size: 36px;
+}
+
+.mods-list {
+    border-radius: 30px;
+    border: 1px solid #303346;
+    background: linear-gradient(90deg, #131521 0%, #131622 100%);
+    box-shadow: 0px 7px 15px 0px rgba(0, 0, 0, 0.10), 0px 28px 28px 0px rgba(0, 0, 0, 0.09), 0px 62px 37px 0px rgba(0, 0, 0, 0.05), 0px 111px 44px 0px rgba(0, 0, 0, 0.01), 0px 173px 48px 0px rgba(0, 0, 0, 0.00);
+    width: 100%;
+    height: 450px;
+    margin: 4% 0% 6% 0%;
+    position: relative;
+}
+
+.mods-list_header {
+    border-radius: 30px 30px 0px 0px;
+    background: #303346;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2% 4%; 
+    box-sizing: border-box;
+    z-index: 10;
+    position: relative;
+}
+
+.mods-list_buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 20%;
+    justify-content: right;
+}
+
+.mods-list_buttons svg {
+    margin: 0% 16px;
+    flex-shrink: 0;
+}
+
+.mods-list_link {
+    font-size: 16px;
+}
+
+.grey {
+    color: #73799B;
+}
+
+.dark-grey {
+    color: #444861;
+}
+
+.mods-list_scroll-bar {
+    position: absolute;
+    right: 0px;
+    height: 420px;
+    bottom: 0px;
+    z-index: 5;
+}
+
+.ml_content_column {
+    margin-right: 8%;
+}
+
+.mods-list_content {
+    width: 100%;
+    height: 100%;
+    padding: 2% 6%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: first baseline;
+}
+
+.mods-list_content li {
+    color: #73799B;
+    font-family: 'League Spartan';
+    list-style: none;
+    margin: 12px 0%;
+    font-size: 14px;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    white-space: nowrap;
+}
+
+.mods-list_content .mod-name::before {
+    content: ' ';
+    background: url(../img/java-logo.svg);
+    display: block;
+    width: 19px;
+    height: 19px;
+    position: absolute;
+    left: -25px;
+}
+
+.mods-list_content .mod-name {
+    margin-left: 25px;
+}
+
+.mods-list_content ul {
+    padding: 0%;
+}
+
+.column-sign {
+    font-size: 16px;
+}
+
+.mods-list_content .size-column li {
+    justify-content: right;
+}
+
+.fact-text {
+    font-size: 28px;
+    margin-left: 4%;
+    margin-bottom: 4%;
+}
+
+.check-list-link {
+    font-family: 'League Spartan';
+    margin-left: 4%;
+    font-weight: 600;
+    font-size: 24px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.arrow__invisible {
+    display: none;
+}
+
+#arrow {
+    animation: appear 0.5s;
+}
+
+#arrow__hover {
+    animation: appear 0.5s;
+}
+
+#bcl:hover .best-community-link {
+    outline: solid 2px white;
+    transition: 0.5s;
+}
+
+header .download-button:hover {
+    border-color: #B216E8;
+}
+
+.join-us_bottom .download-button:hover {
+    border-color: white;
+}
+
+.discord-logo:hover {
+    transform: scale(1.1);
+}
+
+.disco {
+    transition: 0.2s;
+}
+
+.disco:hover {
+    transform: scale(1.1);
+}
+
+@keyframes appear {
+    from {
+        opacity: 0%;
+    }
+
+    to {
+        opacity: 100%;
+    }
+}
+
+.arrow::after {
+    content: ' ';
+    background: url(../img/arrow.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 15px;
+    width: 15px;
+    margin-left: 12px;
+    display: block;
+    position: static !important;
+}
+
+.arrow__hover::after {
+    background: url(../img/arrow_hover.svg) !important;
+    width: 24px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.minecraft-font {
+    font-family: 'Pixelify Sans';
+}
+
+.showcase-block {
+    border-radius: 30px;
+    border: 1px solid #303346;
+    background: linear-gradient(90deg, #131521 0%, #131622 100%);
+    box-shadow: 0px 7px 15px 0px rgba(0, 0, 0, 0.10), 0px 28px 28px 0px rgba(0, 0, 0, 0.09), 0px 62px 37px 0px rgba(0, 0, 0, 0.05), 0px 111px 44px 0px rgba(0, 0, 0, 0.01), 0px 173px 48px 0px rgba(0, 0, 0, 0.00);
+    width: 100%;
+    height: 450px;
+    margin: 4% 0% 6% 0%;
+    position: relative;
+    padding: 4%;
+    display: flex;
+    box-sizing: border-box;
+}
+
+.showcase-block::before {
+    content: ' ';
+    background: url(../img/points.svg);
+    display: block;
+    height: 9px;
+    width: 39px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    left: 32px;
+    top: 14px;
+}
+
+.fps-pic_top p {
+    font-size: 12px;
+    line-height: 140%;
+}
+
+.fps-pic_top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: first baseline;
+    width: 100%;
+}
+
+.minecraft-interface {
+    display: flex;
+    height: 120px;
+}
+
+.fps-picture {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text-align__right {
+    text-align: right;
+}
+
+.fps-pic_top .minecraft-font span {
+    background-color: #3E486E;
+}
+
+.fourth-section {
+    background: url(../img/creeper-background.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+}
+
+.ping-showcase_block {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.fifth-section .showcase-block {
+    width: 65%;
+    padding: 6%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.players-list_block {
+    border-radius: 30px;
+    border: 1px solid #303346;
+    background: linear-gradient(90deg, #131521 0%, #131622 100%);
+    box-shadow: 0px 7px 15px 0px rgba(0, 0, 0, 0.10), 0px 28px 28px 0px rgba(0, 0, 0, 0.09), 0px 62px 37px 0px rgba(0, 0, 0, 0.05), 0px 111px 44px 0px rgba(0, 0, 0, 0.01), 0px 173px 48px 0px rgba(0, 0, 0, 0.00);
+    width: 30%;
+    height: 450px;
+    margin: 4% 0% 6% 0%;
+    position: relative;
+    padding: 3%;
+    display: flex;
+    box-sizing: border-box;
+}
+
+.ping-showcase_image {
+    pointer-events: none;
+}
+
+.players-list_block {
+    flex-direction: column;
+    justify-content: center;
+}
+
+.players_line {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin: 3% 0%;
+}
+
+.players_line_pfp {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+}
+
+.players_line_pfp p {
+    margin-left: 6%;
+}
+
+.players_line p {
+    font-size: 20px;
+    padding-top: 4px;
+}
+
+.fifth-section {
+    background: url(../img/minetes.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+}
+
+.chat_showcase_date {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.chat_showcase_date hr {
+    flex-grow: 1;
+    border: solid 1px #73799B;
+}
+
+.chat_showcase_date p {
+    margin: 0% 2%;
+}
+
+.chat_showcase_block {
+    display: flex;
+    flex-direction: column;
+}
+
+.chat_profiles {
+    display: flex;
+    flex-direction: column;
+}
+
+.chat-profiles_profile {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.profile-picture {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+}
+
+.profile_text_nickname {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1%;
+    align-items: center;
+}
+
+.profile_text {
+    margin-left: 2%;
+}
+
+.profile_nickname {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.profile_time {
+    font-size: 14px;
+    font-weight: 400;
+    margin-left: 2%;
+}
+
+.profile_text_message {
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.chat-input_block {
+    background-color: #303346;
+    border-radius: 14px;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0% 3%;
+    box-sizing: border-box;
+}
+
+.chat_showcase_block {
+    height: 580px;
+    justify-content: space-between;
+}
+
+.chat-icon {
+    width: 30px;
+    height: 30px;
+}
+
+.chat-input_block_left {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.chat-input_block_left input {
+    background: none;
+    border: none;
+    font-size: 18px;
+    color: #73799B;
+    margin-left: 8%;
+    font-family: 'League Spartan';
+}
+
+.chat-input_block_left input:focus {
+    outline: none;
+}
+
+.chat-input_block_left input::placeholder {
+    font-size: 18px;
+    color: #73799B;
+    margin-left: 8%;
+    font-family: 'League Spartan';
+}
+
+.chat-input_block {
+    justify-content: space-between;
+}
+
+.chat-input_block_right {
+    display: flex;
+    flex-direction: row;
+    gap: 20%;
+    justify-content: right;
+}
+
+
+.chat-profiles {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 50%;
+}
+
+.chat_showcase_block {
+    position: relative;
+}
+
+.invitation_block {
+    position: absolute;
+    width: 400px;
+    height: 480px;
+    background-color: #303346;
+    border-radius: 30px;
+    bottom: -40px;
+    right: 40px;
+    box-shadow: -5px 5px 14px 0px rgba(0, 0, 0, 0.10), -18px 18px 26px 0px rgba(0, 0, 0, 0.09), -41px 42px 35px 0px rgba(0, 0, 0, 0.05), -72px 74px 41px 0px rgba(0, 0, 0, 0.01), -113px 116px 45px 0px rgba(0, 0, 0, 0.00);
+    display: flex;
+    flex-direction: column;
+    padding: 6% 4%;
+    box-sizing: border-box;
+    justify-content: first baseline;
+    align-items: center;
+}
+
+.invitation_block img {
+    width: 120px;
+    height: 120px;
+}
+
+.invitation_message {
+    font-size: 18px;
+    margin-top: 6%;
+}
+
+.invitation_server-name {
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 1%;
+}
+
+.status-images {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8%;
+    margin-top: 6%;
+}
+
+.status-images img {
+    width: 122px;
+    height: 22px;
+}
+
+.invitation_block button {
+    background-color: #73799B;
+    border-radius: 7px;
+    padding: 4%;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: League Spartan;
+    margin-top: 20%;
+}
+
+.invitation_button {
+    width: 100%;
+}
+
+.sixth-section {
+    background: url(../img/square-creeper.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+}
+
+.support-dialogue {
+    pointer-events: none;
+    position: absolute;
+    bottom: 0%;
+    height: 85%;
+    left: 8%;
+}
+
+.support-showcase {
+    position: relative;
+    height: 580px;
+}
+
+.support-showcase {
+    justify-content: right;
+    align-items: center;
+    padding-right: 16%;
+}
+
+.support-showcase_right p {
+    font-size: 36px;
+    line-height: 100%;
+    margin-bottom: 32%;
+}
+
+.support-showcase_right span {
+    font-weight: 700;
+}
+
+.support-showcase_right a {
+    font-size: 32px;
+    line-height: 100%;
+    font-family: 'League Spartan';
+    font-weight: 600;
+}
+
+.installation-showcase {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 580px;
+}
+
+.installation-showcase img {
+    width: 70%;
+    pointer-events: none;
+}
+
+.seventh-section {
+    background: url(../img/block.svg);
+    background-repeat: no-repeat;
+    background-size: 45%;
+    background-position: right;
+}
+
+.eigth-section {
+    margin-bottom: 8%;
+    background: url(../img/eight.png);
+    background-repeat: no-repeat;
+    background-size: 45%;
+    background-position: right;
+}
+
+.nineth-section {
+    background: url(../img/underground.png);
+    background-color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding: 14% 8% 4% 8% !important;
+    box-sizing: border-box;
+    position: relative;
+    z-index: 1;
+}
+
+.nineth-section p {
+    font-size: 36px;
+    margin-top: 4%;
+    z-index: 1;
+    position: relative;
+}
+
+.join-us_bottom {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 40%;
+    justify-content: left;
+    gap: 20%;
+    margin-top: 4%;
+    z-index: 1;
+    position: relative;
+}
+
+.join-us_bottom .download-button {
+    border-color: #B216E8;
+    font-family: 'League Spartan';
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding: 0% 22%;
+    height: 55px;
+    border-radius: 15px;
+    font-size: 24px;
+    flex-shrink: 0;
+    box-sizing: content-box;
+    position: static;
+}
+
+.discord-logo {
+    height: 55px;
+    width: 55px;
+    background-color: #B216E8;
+    border-radius: 15px;
+    padding: 18%;
+    box-sizing: border-box;
+    transition: 0.2s;
+}
+
+footer {
+    background-color: #040610;
+    width: 100%;
+    padding: 0% 2%;
+    display: flex;
+    flex-direction: row; 
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+footer a {
+    transition: 0.2s;
+}
+
+footer a:hover {
+    transform: scale(1.1);
+}
+
+.footer-left {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 40%;
+}
+
+.footer-left p {
+    margin-left: 4%;
+    font-size: 18px;
+    margin-top: -2%;
+}
+
+.footer-right {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 24%;
+    justify-content: right;
+}
+
+.footer-right img {
+    width: 33px;
+}
+
+.nineth-section::after {
+    content: ' ';
+    background: url(../img/Shading2.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0%;
+    bottom: 0%;
+    z-index: 0;
+}
+
+.icon::before {
+    content: ' ';
+    width: 56px;
+    height: 55px;
+    display: block;
+    position: absolute;
+    left: 40px;
+    top: 60px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    z-index: 950;
+}
+
+.icon::after {
+    content: ' ';
+    width: 16px;
+    height: 108%;
+    display: block;
+    position: absolute;
+    left: 60px;
+    top: 140px;
+    border-radius: 20px;
+    z-index: 900;
+    transition: 2s;
+    background-size: cover;
+}
+
+.firicon::before {
+    content: ' ';
+    width: 16px;
+    height: 100%;
+    display: block;
+    position: absolute;
+    left: 60px;
+    top: 280px;
+    border-radius: 20px;
+    z-index: 900;
+    transition: 2s;
+}
+
+.red-cross {
+    position: absolute;
+    top: 200px;
+    left: 40px;
+    width: 56px;
+    height: 55px;
+    z-index: 900;
+}
+
+.firicon__animation::before {
+    height: 0%;
+    transition: 2s;
+}
+
+.firicon::before {
+    background: linear-gradient(180deg, rgba(237, 97, 17, 0.00) 0%, #FF1313 40%, #EC7213 60%, rgba(230, 185, 26, 0.00) 100%);
+}
+
+.orange-gradient::after {
+    background: linear-gradient(180deg, rgba(237, 97, 17, 0.00) 0%, #ED6111 40%, #E6B91A 60%, rgba(230, 185, 26, 0.00) 100%);
+}
+
+.yellow-gradient::after {
+    background: linear-gradient(180deg, rgba(237, 97, 17, 0.00) 0%, #E6B91A 40%, #54E619 60%, rgba(230, 185, 26, 0.00) 100%);
+}
+
+.green-gradient::after {
+    background: linear-gradient(180deg, rgba(237, 97, 17, 0.00) 0%, #54E619 40%, #14DFDA 60%, rgba(230, 185, 26, 0.00) 100%);
+}
+
+.cyan-gradient::after {
+    background: linear-gradient(180deg, rgba(237, 97, 17, 0.00) 0%, #14DFDA 40%, #146CD2 60%, rgba(230, 185, 26, 0.00) 100%);
+}
+
+.blue-gradient::after {
+    background: linear-gradient(180deg, rgba(237, 97, 17, 0.00) 0%, #146CD2 40%, #7B19D5 60%, rgba(230, 185, 26, 0.00) 100%);
+}
+
+.purple-gradient::after {
+    background: linear-gradient(180deg, rgba(237, 97, 17, 0.00) 0%, #7B19D5 40%, #B216E8 60%, rgba(230, 185, 26, 0.00) 100%);
+    height: 165%;
+}
+
+.category-section {
+    position: relative;
+}
+
+.orange-icon::before {
+    background: url(../img/fire-icon.svg);
+}
+
+.yellow-icon::before {
+    background: url(../img/yellow-icon.svg);
+}
+
+.green-icon::before {
+    background: url(../img/green-icon.svg);
+}
+
+.cyan-icon::before {
+    background: url(../img/cyan-icon.svg);
+}
+
+.blue-icon::before {
+    background: url(../img/blue-icon.svg);
+}
+
+.violet-icon::before {
+    background: url(../img/purple-icon.svg);
+}
+
+.ninicon::before {
+    content: ' ';
+    width: 56px;
+    height: 55px;
+    display: block;
+    position: absolute;
+    left: 40px;
+    bottom: 30px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    z-index: 950;
+    background: url(../img/purple-cross.svg);
+}
+
+.burger_button {
+    display: none;
+}
+
+.show-animation__left {
+    animation-delay: 0s;
+    animation: show-animation__left ease-in-out;
+    animation-duration: 0.8s;
+    position: relative;
+}
+
+.show-animation__left__delayed {
+    animation-delay: 0s;
+    animation: show-animation__left ease-in-out;
+    animation-duration: 1s;
+    position: relative;
+}
+
+.show-animation__appear {
+    animation-delay: 0s;
+    animation: show-animation__appear ease-in-out;
+    animation-duration: 1s;
+    position: relative;
+}
+
+.animation__invisible {
+    opacity: 0%;
+}
+
+.animation__invisible__images {
+    opacity: 0%;
+}
+
+.invisible {
+    display: none !important;
+}
+
+.invisible__mobile {
+    display: none !important;
+}
+
+.mobile-nav-list {
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+    transition: 0.2s;
+}
+
+.mobile-nav-list ul {
+    display: flex;
+    flex-direction: column;
+    padding: 0%;
+    width: 100%;
+}
+
+.mobile-nav-list ul li {
+    padding: 4%;
+    border: none;
+    border-bottom: solid;
+    border-width: 2px;
+    border-color: white;
+    margin-top: -1px;
+    list-style: none;
+    text-align: center;
+}
+
+.mobile-nav-list ul li a {
+    color: white;
+}
+
+.mobile-li {
+    left: -100vw;
+    position: relative;
+}
+
+.mobile-header__li_invisible {
+    animation: li_invisible 1s both;
+}
+
+#blur {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    z-index: 900;
+    animation: blurring 1s normal;
+    animation-timing-function: linear;
+    backdrop-filter: blur(40px);
+    animation-fill-mode:both
+}
+
+.header_line {
+    display: flex;
+    flex-direction: row;
+    width: min-content;
+    justify-content: space-between;
+}
+
+.line__animation::after {
+    height: 0% !important;
+    transition: 0.1s;
+}
+
+@keyframes show-animation__left {
+    0% {
+        left: -6%;
+        opacity: 0%;
+    }
+
+    100% {
+        left: 0%;
+        opacity: 100%;
+    }
+}
+
+
+@keyframes show-animation__appear {
+    0% {
+        opacity: 0%;
+    }
+
+    100% {
+        opacity: 100%;
+    }
+}
+
+@keyframes li_invisible {
+    from {
+        left: -18%;
+        opacity: 0%;
+        position: relative !important;
+    }
+
+    to {
+        left: 0vw;
+        opacity: 100%;
+        position: relative !important; 
+    }
+}
+
+@keyframes blurring {
+    0% {
+        backdrop-filter: blur(0px);
+    }
+
+    25% {
+        backdrop-filter: blur(10px);
+    }
+
+    50% {
+        backdrop-filter: blur(20px);
+    }
+
+    75% {
+        backdrop-filter: blur(30px);
+    }
+
+    100% {
+        backdrop-filter: blur(40px);
+    }
+}
+
+.preloader {
+    width: 100vw;
+    height: 100vh;
+    background-color: #040610;
+    z-index: 1000;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10%;
+    padding: 0% 16%;
+    box-sizing: border-box;
+    opacity: 100%;
+    transition: 2s;
+}
+
+.preloader svg {
+    width: 100%;
+}
+
+.progressbar {
+    width: 100%;
+    height: 4%;
+    background-color: #212333;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+.preloader_loading {
+    animation: loading 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    background-color: #3b3f57;
+    height: 100%;
+    width: 10%;
+    border-radius: 8px;
+    position: relative;
+}
+
+.loaded_hiding {
+    animation: hiding 1s ease-in-out;
+}
+
+@keyframes hiding {
+    0% {
+        opacity: 100%;
+    }
+
+    100% {
+        opacity: 0%;
+    }
+}
+
+@keyframes loading {
+    0% {
+        left: 0%;
+    }
+
+    25% {
+        left: 25%;
+    }
+
+    50% {
+        left: 50%;
+    }
+
+    75% {
+        left: 75%;
+    }
+
+    100% {
+        left: 90%;
+    }
+}
+
+.loaded {
+    display: none;
+    opacity: 0%;
+    transition: 2s;
+}
+
+.hidden {
+    display: none !important;
+}
+
+.graduation {
+    position: absolute;
+    width: 1200px;
+    height: 1200px;
+    opacity: 15%;
+    display: block;
+    background: url(../img/orange_gradient.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    pointer-events: none !important;
+}
+
+.background_animation {
+    position: relative;
+    overflow: hidden;
+    transition: 0.1s;
+}
+
+
+.yellow-icon .graduation {
+    background: url(../img/yellow_gradient.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.green-icon .graduation {
+    background: url(../img/green_gradient.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.cyan-icon .graduation {
+    background: url(../img/cyan_gradient.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.blue-icon .graduation {
+    background: url(../img/blue_gradient.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.violet-icon .graduation {
+    background: url(../img/purple_gradient.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+img {
+    pointer-events: none !important;
+}
+
+.installation-showcase img {
+    pointer-events: none !important;
+}
+
+.invitation_button:hover {
+    transform: scale(1.05);
+}
+
+.invitation_button {
+    transition: 0.2s;
+}
+
+.support-showcase_right a {
+    transition: 0.2s;
+}
+
+.support-showcase_right a:hover {
+    border-bottom: solid 1px white;
+}
+
+.mods-list_first-section {
+    padding: 22% 8% 8% 8%;
+}
+
+.mods-list_first-section p {
+    font-size: 36px;
+    margin-top: 2%;
+}
+
+.mod-list_category {
+    padding: 10% 8% 8% 8%;
+}
+
+.mod-list_category h6 {
+    font-size: 36px;
+}
+
+.mod-list_category p {
+    font-size: 20px;
+    margin: 1% 0%;
+    width: 60%;
+}
+
+.mod_info {
+    margin-top: 2%;
+}
+
+.mod-list_category a {
+    font-family: 'League Spartan';
+    font-size: 20px;
+    margin: 1% 0%;
+    width: fit-content;
+    display: flex;
+    text-wrap: nowrap;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-weight: 300;
+}
+
+.mod_picture {
+    width: 360px;
+    border-radius: 25px;
+    margin: 2% 0%;
+}
+
+.mod_images {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 3%;
+    flex-wrap: wrap;
+}
+
+.mod-list_category a::before {
+    content: ' ';
+    position: absolute;
+    background: white;
+    width: 0%;
+    height: 1px;
+    bottom: -2px;
+    transition: 0.5s;
+    display: block;
+}
+
+.mod-list_category .arrow_hover::after {
+    background: url(../img/arrow_hover.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 20px;
+    width: 20px;
+}
+
+.mod-list_category .animation-underline::before {
+    width: 80%;
+    height: 1px;
+}
+
+.mod_name {
+    display: flex;
+    flex-direction: row;
+    text-wrap: nowrap;
+    align-items: center;
+    cursor: pointer;
+    width: fit-content !important; 
+    font-family: 'Lalezar';
+    font-size: 40px;
+}
+
+.mod_arrow::after {
+    content: ' ';
+    background: url(../img/arrow.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 15px;
+    width: 15px;
+    margin-left: 12px;
+    display: block;
+    position: static !important;
+}
+
+.mod_arrow_active::after {
+    background: url(../img/mod-arrow.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 6px;
+}
+
+.mod_arrow::before {
+    content: ' ';
+    position: absolute;
+    background: white;
+    width: 0%;
+    height: 1px;
+    bottom: -2px;
+    transition: 0.5s;
+    display: block;
+}
+
+.desc-animation {
+    animation: desc-animation 2s;
+}
+
+@keyframes desc-animation {
+    from {
+        height: 0%;
+        opacity: 0%;
+    }
+
+    to {
+        height: auto;
+        opacity: 100%;
+    }
+}
+
+
+
+@media screen and (max-width: 960px) and (min-width: 280px) {
+    
+    .mods-list_first-section p br {
+        display: none;
+    }
+
+    .header_line {
+        width: 100%;
+    }
+
+    .invisible__mobile {
+        display: flex !important;
+    }
+
+    header {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    .logo {
+        align-self: flex-start;
+    }
+    
+    .icon::after {
+        display: none;
+    }
+
+    .firicon::before {
+        display: none;
+    }
+
+    .red-cross {
+        display: none;
+    }
+
+    .second-section {
+        display: none;
+    }
+
+    .sign {
+        font-size: 44px;
+        line-height: 100%;
+    }
+
+    .category-sign {
+        font-size: 64px;
+        line-height: 100%;
+    }
+    .first-section {
+        padding: 70% 4% 4% 8% !important;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .logo {
+        font-size: 64px;
+        padding-top: 13px;
+    }
+
+    .links-selector {
+        display: none;
+    }
+
+    header .download-button {
+        display: none;
+    }
+
+    header {
+        padding: 2% 8%;
+    }
+
+    .burger_button {
+        background: none;
+        color: white;
+        font-size: 32px;
+        display: block;
+    }
+
+    .first-section_hearts {
+        width: 100px;
+        align-self: flex-end;
+    }
+
+    .bcl_text-block h4 {
+        font-size: 12px;
+    }
+
+    .bcl_text-block p {
+        font-size: 9px;
+    }
+
+    .bcl_svg-image {
+        width: 22px;
+        height: 24px;
+    }
+
+    .bcl_text-block {
+        margin-left: 2%;
+    }
+
+    .best-community-link {
+        width: 100%;
+        height: 45px;
+    }
+
+    .best-community-link_a {
+        width: 90%;
+        height: 45px;
+    }
+
+    .bcl_text-block_right svg {
+        width: 10px;
+        height: 10px;
+    }
+
+    .category-type {
+        font-size: 16px;
+    }
+
+    .icon::before {
+        display: none;
+    }
+
+    .category-text {
+        font-size: 18px;
+    }
+
+    .category-text br {
+        display: none;
+    }
+
+    .cyan {
+        font-size: 62px;
+    }
+
+    .fact-text {
+        font-size: 18px;
+    }
+
+    .fact-text br {
+        display: none;
+    }
+
+    .check-list-link {
+        font-size: 18px;
+    }
+
+    .nineth-section p {
+        font-size: 18px;
+    }
+
+    .nineth-section p br {
+        display: none;
+    }
+
+    .ninicon::before {
+        display: none;
+    }
+
+    .join-us_bottom .download-button {
+        font-size: 12px;
+        height: 32px;
+        padding: 0% 2%;
+    }
+
+    .discord-logo {
+        height: 35px;
+        width: 35px;
+        border-radius: 8px;
+    }
+
+    .join-us_bottom {
+        width: 100%;
+        gap: 10%;
+    }
+
+    .join-us_bottom button {
+        padding: 0%;
+    }
+
+    footer {
+        padding: 4% 8%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-left p {
+        font-size: 12px;
+        margin: 0%;
+    }
+
+    footer h1 {
+        padding-top: 8px !important;
+    }
+
+    .footer-right {
+        width: 100%;
+        justify-content: center;
+        gap: 10%;
+    }
+
+    .footer-left {
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .mods-list_link {
+        font-size: 7px;
+    }
+
+    .mods-list_buttons svg {
+        height: 5px !important;
+        width: 5px;
+        margin: 0% 8%;
+    }
+
+    .column-sign {
+        font-size: 7px;
+    }
+
+    .mods-list_content li {
+        font-size: 6px;
+    }
+
+    .ml_content_column {
+        margin-right: 2%;
+    }
+
+    .mods-list_content .mod-name::before {
+        width: 9px;
+        height: 9px;
+        background-size: contain;
+    }
+
+    .mods-list {
+        border-radius: 12px;
+        height: 200px;
+    }
+
+    .mods-list_header {
+        border-radius: 12px 12px 0px 0px;
+    }
+
+    .mods-list_content li {
+        margin: 8px 0px;
+    }
+
+    .mods-list_scroll-bar {
+        height: 100%;
+    }
+
+    .fps-pic_top p {
+        font-size: 7px;
+    }
+
+    .showcase-block {
+        padding: 8%;
+        height: 280px;
+        margin: 12% 0%;
+        width: 100%;
+    }
+
+    .fps-pic_top {
+        margin-top: 4%;
+    }
+
+    .minecraft-interface {
+        width: 100%;
+        height: auto;
+    }
+
+    .ping-showcase_block {
+        flex-direction: column;
+    }
+    
+    .fifth-section .showcase-block {
+        width: 100%;
+    }
+
+    .players-list_block {
+        width: 100%;
+    }
+
+    .ping-showcase_image img {
+        width: 100%;
+    }
+
+    .players_line_pfp img {
+        width: 25px;
+        height: 25px;
+    }
+
+    .players_line p {
+        font-size: 16px;
+    }
+
+    .players-list_block {
+        height: auto;
+        padding: 8% 4%;
+    }
+
+    .invitation_block {
+        display: none;
+        position: relative;
+    }
+
+    .chat_showcase_date p {
+        font-size: 12px;
+    }
+
+    .profile-picture {
+        width: 30px;
+        height: 30px;
+    }
+
+    .profile_nickname {
+        font-size: 12px;
+    }
+
+    .profile_time {
+        font-size: 11px;
+    }
+
+    .profile_text_message {
+        font-size: 12px;
+    }
+
+    .chat-profiles {
+        height: 50%;
+    }
+
+    .chat-icon {
+        width: 18px;
+        height: 18px;
+    }
+
+    .chat-input_block {
+        height: 30px;
+    }
+
+    .chat-input_block_left input {
+        font-size: 12px;
+    }
+
+    .chat-input_block_left input::placeholder {
+        font-size: 12px;
+    }
+
+    .support-showcase {
+        display: flex;
+        flex-direction: column;
+        height: 400px;
+        align-items: flex-start;
+        padding: 12%;
+    }
+
+    .support-dialogue {
+        width: 80%;
+        height: auto;
+        align-self: center;
+    }
+
+    .support-showcase_right p {
+        font-size: 18px;
+        margin-bottom: 12%;
+    }
+
+    .support-showcase_right a {
+        font-size: 16px;
+    }
+
+    .installation-showcase img {
+        width: 90%;
+    }
+
+    .mobile-nav-list ul li a {
+        height: fit-content !important;
+        display: block;
+    }
+
+    .mods-list_first-section {
+        padding: 64% 8% 8% 8% !important;
+    }
+
+    .mods-list_first-section p {
+        font-size: 18px;
+    }
+
+    .mod-list_category p {
+        margin-top: 6%;
+        width: 100%;
+        font-size: 18px;
+        margin-bottom: 4%;
+    }
+
+    .mod_picture {
+        margin: 4% 0%;
+    }
+
+    .mod-list_category a {
+        margin: 6% 0%;
+    }
+}
+
+@media screen and (max-width: 2000px) and (min-width: 1800px) {
+    .icon::after {
+        height: 112%;
+    }
+
+    .purple-gradient::after {
+        background: linear-gradient(180deg, rgba(237, 97, 17, 0.00) 0%, #7B19D5 40%, #B216E8 60%, rgba(230, 185, 26, 0.00) 100%);
+        height: 180%;
+    }
+
+    .firicon::before {
+        height: 106%;
+    }
+
+}
+
+.mod-list_category {
+    padding: 4% 8% !important;
+}
+
+.mods-list_first-section {
+    margin-bottom: 4%;
+}
