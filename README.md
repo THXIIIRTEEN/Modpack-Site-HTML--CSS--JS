@@ -10,6 +10,7 @@
 <h2>Используемые технологии</h2>
 <ul>
   <li>HTML</li>
+  <li>JavaScript</li>
   <li>CSS
     <ol><li>Flexbox</li></ol>
   </li>
