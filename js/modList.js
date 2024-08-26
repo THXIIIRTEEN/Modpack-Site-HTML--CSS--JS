@@ -129,10 +129,6 @@ list_button.onclick = function l_button() {
   }
 
   window.onload = function start() {
-    document.getElementById('preloader').classList.add('loaded_hiding');
-    window.setTimeout(function () {
-      document.getElementById('preloader').classList.add('loaded');
-    }, 1000);
 
     let l = document.getElementsByClassName('underline').length;
 
